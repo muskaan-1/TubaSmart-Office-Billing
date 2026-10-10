@@ -1,0 +1,4 @@
+package com.tubasmart.backend.repository;
+import com.tubasmart.backend.model.Floor;
+import org.springframework.data.jpa.repository.JpaRepository;
+public interface FloorRepository extends JpaRepository<Floor, Long> {}

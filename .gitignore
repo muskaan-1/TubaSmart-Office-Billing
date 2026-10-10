@@ -1,0 +1,15 @@
+
+# Java / Spring Boot
+**/target/
+**/build/
+*.class
+
+# Node / Angular
+**/node_modules/
+**/dist/
+**/.angular/
+
+# Secrets and local environment
+.env
+.env.*
+!.env.example
