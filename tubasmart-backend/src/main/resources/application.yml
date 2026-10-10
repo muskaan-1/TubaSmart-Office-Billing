@@ -35,7 +35,7 @@ app:
     secret: 29efe7de33ed2eb09f7683e34cccbdb06f1732a5651031285532c8b0c3001be5
     expiration-ms: ${JWT_EXPIRATION_MS:86400000}
   bootstrap-admin:
-    username: admin
-    password: Admin@123
+    username: ${BOOTSTRAP_ADMIN_USERNAME:}
+    password: ${BOOTSTRAP_ADMIN_PASSWORD:}
   cors:
     allowed-origins: ${CORS_ALLOWED_ORIGINS:http://localhost:4200}
